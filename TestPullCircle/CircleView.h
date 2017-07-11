@@ -4,7 +4,8 @@
 //
 //  Created by 龙培 on 17/7/3.
 //  Copyright © 2017年 龙培. All rights reserved.
-//
+//控件的思路 http://www.jianshu.com/p/a003516023c3
+//问题反馈至 https://github.com/Coolll/CircleView
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -25,7 +26,6 @@ typedef NS_ENUM(NSInteger,CircleType) {
  *  圆圈类型，一种是下拉的，一种是拖动的
  **/
 @property (nonatomic,assign) CircleType circleType;
-
 
 /**
  *  颜色
@@ -95,7 +95,5 @@ typedef NS_ENUM(NSInteger,CircleType) {
 
 //重置视图的状态
 - (void)resetOriginCircle;
-
-- (void)refreshView;
 
 @end
